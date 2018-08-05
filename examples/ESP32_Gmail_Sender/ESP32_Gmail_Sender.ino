@@ -14,7 +14,7 @@ uint8_t connection_state = 0;                    // Connected to WIFI or not
 uint16_t reconnect_interval = 10000;             // If not connected wait time to try again
 #pragma endregion Globals
 
-String address[] = {"richard.vogel@noaa.gov", "8163773506@txt.att.net"};
+String address[] = {"email1", "email2"};
 
 uint8_t WiFiConnect(const char* nSSID = nullptr, const char* nPassword = nullptr)
 {
